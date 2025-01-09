@@ -1,1 +1,7 @@
 .idea
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfvars
+*.tfstate
+*.tfstate.*
