@@ -37,14 +37,18 @@ status:
 
 # Terraform commands
 terraform-init:
-	cd terraform && terraform init
+	cd terraform && \
+	terraform init
 
 terraform-plan:
-	cd terraform && terraform plan
+	cd terraform && \
+	terraform plan
 
 terraform-apply:
-	cd terraform && terraform apply
+	cd terraform && \
+	terraform apply
 
 terraform-destroy:
-	cd terraform && terraform destroy
+	cd terraform && \
+	terraform destroy
 	 

@@ -1,6 +1,0 @@
-one_endpoint  = "http://opennebula:2633/RPC2"
-one_username  = "oneadmin"
-one_password  = "your-password-here"
-datastore_id  = 1
-registry_url  = "registry.local"
-network_address = "192.168.1.0" 

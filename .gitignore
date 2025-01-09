@@ -2,6 +2,10 @@
 # Terraform
 terraform/.terraform/
 terraform/.terraform.lock.hcl
-terraform/terraform.tfvars
 *.tfstate
 *.tfstate.*
+
+# Environment variables
+.env
+.env.*
+!.env.example

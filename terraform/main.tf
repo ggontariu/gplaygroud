@@ -8,9 +8,11 @@ terraform {
 }
 
 provider "opennebula" {
-  endpoint = var.one_endpoint
-  username = var.one_username
-  password = var.one_password
+  # These will automatically use the environment variables:
+  # OPENNEBULA_ENDPOINT
+  # OPENNEBULA_USERNAME
+  # OPENNEBULA_PASSWORD
+  # OPENNEBULA_INSECURE
 }
 
 # Create a new image for the Go application

@@ -1,21 +1,7 @@
-variable "one_endpoint" {
-  description = "OpenNebula API endpoint"
-  type        = string
-}
-
-variable "one_username" {
-  description = "OpenNebula username"
-  type        = string
-}
-
-variable "one_password" {
-  description = "OpenNebula password"
-  type        = string
-}
-
 variable "datastore_id" {
   description = "ID of the datastore to use"
   type        = number
+  default     = 1
 }
 
 variable "registry_url" {
